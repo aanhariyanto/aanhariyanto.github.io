@@ -62,15 +62,6 @@ body {
     }
 }
 
-h1 {
-    font-size:24px;
-    font-weight:normal;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
-}
-
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
@@ -92,15 +83,6 @@ h1 {
     text-align:center;
 }
 
-.urlButton {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#1976d2;
-    font-size:20px;
-    margin:0px 30px;
-    padding:5px 5px;
-}
-
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
@@ -116,75 +98,6 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
-}
-
-.verify {
-  display: block;
-  width: 219px;
-  height: 111px;
-  background: url("../img/verify.png") no-repeat;
-  margin: 0px auto;
-}
-
-.activity-generated-amount .activity-fut1:before {
-  width: 25px;
-  height: 17px;
-  background: url("../img/dailywins.png") center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  content: '';
-  position: relative;
-  display: inline-block;
-  margin-right: 5px;
-  top: 3px;
-}
-
-.activity-generated-amount .activity-fut2:before {
-  width: 25px;
-  height: 17px;
-  background: url("../img/dailywins.png") center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  content: '';
-  position: relative;
-  display: inline-block;
-  margin-right: 5px;
-  top: 3px;
-}
-
-.activity-generated-amount .activity-fut3:before {
-  width: 25px;
-  height: 17px;
-  background: url("../img/dailywins.png") center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  content: '';
-  position: relative;
-  display: inline-block;
-  margin-right: 5px;
-  top: 3px;
-}
-
-.activity-generated-amount .activity-fut4:before {
-  width: 25px;
-  height: 17px;
-  background: url("../img/dailywins.png") center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  content: '';
-  position: relative;
-  display: inline-block;
-  margin-right: 5px;
-  top: 3px;
-}
-
-.panel-box-wrapper {
-  background: #000000;
-  padding: 20px 30px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  position: relative;
 }
 
 #loader-wrapper {
