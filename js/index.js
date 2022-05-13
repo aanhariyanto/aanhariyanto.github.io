@@ -1,7 +1,7 @@
 $(document).ready(function () {
   setTimeout(function () {
     $('body').addClass('loaded');
-  }, 100);
+  }, 2048);
 });
 
 var app = {
